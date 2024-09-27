@@ -12,7 +12,7 @@
 import axios from 'axios';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:4000/api',// Change this to your API base URL
+  baseURL: 'http://3.111.237.106:4000/api',// Change this to your API base URL
   withCredentials: true, // Include credentials in requests 
   //process.env.REACT_APP_BASE_URL ||
 }); 
